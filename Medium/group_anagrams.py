@@ -5,7 +5,7 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
 
 """
 
-def groupAnagrams(self, strs):
+def groupAnagrams(strs):
     hashset = {}
     for word in range(len(strs)):
         sorted_word = ''.join(sorted(strs[word]))
