@@ -5,7 +5,7 @@ If target exists, then return its index. Otherwise, return -1.
 You must write an algorithm with O(log n) runtime complexity.
 """
 
-def search(self, nums, target):
+def search(nums, target):
     low = 0
     high = len(nums) - 1
 
