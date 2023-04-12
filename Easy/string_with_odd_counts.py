@@ -5,7 +5,7 @@ The returned string must contain only lowercase English letters. If there are mu
 
 """
 
-def generateTheString(self, n):
+def generateTheString(n):
     if n % 2 != 0:
         return 'a'*n
     else:
