@@ -7,7 +7,7 @@ Return the maximum amount of water a container can store.
 Notice that you may not slant the container. '''
 
 
-def maxArea(self, height):
+def maxArea(height):
     point1, point2 = 0, len(height) - 1
     max_water = 0
     while point1 < point2:
