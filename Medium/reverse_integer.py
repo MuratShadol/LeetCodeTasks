@@ -3,7 +3,7 @@ Given a signed 32-bit integer x, return x with its digits reversed. If reversing
 Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 """
 
-def reverse(self, x):
+def reverse(x):
     str_val = str(x)[::-1]
     if str(x)[0] != '-' and int(str_val) > 2**31-1:
         return 0
