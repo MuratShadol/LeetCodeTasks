@@ -8,7 +8,7 @@ You are given an API bool isBadVersion(version) which returns whether version is
 
 """
 
-def firstBadVersion(self, n):
+def firstBadVersion(n):
     l, r = 1, n
     result = n
     while l<=r:
