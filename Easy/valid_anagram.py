@@ -5,5 +5,5 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
 
 """
 
-def isAnagram(self, s, t):
+def isAnagram(s, t):
     return sorted(s) == sorted(t)
