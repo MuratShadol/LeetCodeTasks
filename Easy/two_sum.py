@@ -7,7 +7,7 @@ You can return the answer in any order.
 
 """
 
-def twoSum(self, nums, target):
+def twoSum(nums, target):
     hashset = {}
     for idx, val in enumerate(nums):
         if target - val not in hashset:
