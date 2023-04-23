@@ -7,7 +7,7 @@ Your solution must use only constant extra space.
 
 """
 
-def twoSum(self, numbers, target):
+def twoSum(numbers, target):
     point1, point2 = 0, len(numbers)-1 
     while point1 < point2:
         if numbers[point1]+numbers[point2] == target:
